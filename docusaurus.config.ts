@@ -73,7 +73,7 @@ const config: Config = {
           label: 'Über uns',
         },
         {
-          href: 'https://github.com/pfadizueri/website',
+          href: 'https://github.com/pfadizueri/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -105,7 +105,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/pfadizueri/website',
+              href: 'https://github.com/pfadizueri/docs',
             },
           ],
         },
