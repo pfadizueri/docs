@@ -11,32 +11,30 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Microsoft 365',
+    Svg: require('@site/static/img/m365.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Hier findest du alle wichtigen Informationen rund um Microsoft 365 bei der Pfadi Züri.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'MiData',
+    Svg: require('@site/static/img/pbs.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Hier findest du alle wichtigen Informationen rund um MiData.
+        Die Dokumentation der MiData findest du hier <a href="https://docu.scout.ch/" target="_blank">docu.scout.ch/</a>.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'E-Mail-Verkehr',
+    Svg: require('@site/static/img/outlook.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Hier zeigen wir dir, wie du deine E-Mails weiterleiten kannst, eine Signatur erstellst und einiges mehr.
       </>
     ),
   },
