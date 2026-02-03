@@ -68,13 +68,29 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
+          sidebarId: 'm365Sidebar',
           position: 'left',
-          label: 'Über uns',
+          label: 'Microsoft 365',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'midataSidebar',
+          position: 'left',
+          label: 'MiData',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'mailSidebar',
+          position: 'left',
+          label: 'E-Mail-Verkehr',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'contactSidebar',
+          position: 'left',
+          label: 'Kontakt',
         },
         {
           href: 'https://github.com/pfadizueri/docs',
-          label: 'GitHub',
+          label: 'Anpassung vorschlagen',
           position: 'right',
         },
       ],
