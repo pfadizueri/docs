@@ -110,7 +110,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Pfadi Züri. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Pfadi Züri | <a href="https://pfadi.zuerich/impressum/">Impressum</a> | <a href="https://pfadi.zuerich/datenschutz/">Datenschutz</a> |Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
