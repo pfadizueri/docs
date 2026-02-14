@@ -7,7 +7,7 @@ COPY package.json ./
 RUN npm install
 
 COPY . .
-RUN npm run builds
+RUN npm run build
 
 # ---------- Runtime Stage ----------
 FROM nginx:stable-alpine
