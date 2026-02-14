@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'E-Mail-Verkehr',
-    Svg: require('@site/static/img/outlook.png').default,
+    Svg: '/img/outlook.png',
     description: (
       <>
         Hier zeigen wir dir, wie du deine E-Mails weiterleiten kannst, eine Signatur erstellst und einiges mehr.
