@@ -1,22 +1,41 @@
-# Use the official Bun image for the build stage
-FROM oven/bun:latest as builder
+# ---------- Build Stage ----------
+FROM node:20-alpine AS builder
+
 WORKDIR /app
 
-# Install dependencies
-COPY package.json bun.lockb ./
-RUN bun install --frozen-lockfile
+# Install dependencies (clean + reproducible)
+COPY package*.json ./
+RUN npm ci
 
-# Copy source and build the static site
+# Copy source files
 COPY . .
-RUN bun run build
 
-# Use Nginx to serve the static files
+# Build Docusaurus static site
+RUN npm run build
+
+# ---------- Runtime Stage ----------
 FROM nginx:stable-alpine
+
+# Remove default nginx config
+RUN rm /etc/nginx/conf.d/default.conf
+
+# Copy build output
 COPY --from=builder /app/build /usr/share/nginx/html
 
-# Custom Nginx config to handle Docusaurus routing (optional but recommended)
-# This helps with clean URLs and 404s
-RUN echo "server { listen 80; location / { root /usr/share/nginx/html; try_files \$uri \$uri/ /404.html; } }" > /etc/nginx/conf.d/default.conf
+# Proper SPA routing config for Docusaurus
+RUN echo 'server {
+    listen 80;
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    error_page 404 /404.html;
+}' > /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
+
 CMD ["nginx", "-g", "daemon off;"]
