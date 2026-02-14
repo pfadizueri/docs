@@ -68,23 +68,23 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'm365Sidebar',
+          sidebarId: 'aboutSidebar',
           position: 'left',
           label: 'Microsoft 365',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'midataSidebar',
+          sidebarId: 'aboutSidebar',
           position: 'left',
           label: 'MiData',
         },{
           type: 'docSidebar',
-          sidebarId: 'mailSidebar',
+          sidebarId: 'aboutSidebar',
           position: 'left',
           label: 'E-Mail-Verkehr',
         },{
           type: 'docSidebar',
-          sidebarId: 'contactSidebar',
+          sidebarId: 'aboutSidebar',
           position: 'left',
           label: 'Kontakt',
         },
