@@ -1,41 +1,8 @@
-# Website
+# Pfadi Züri IT Dokumentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Willkommen bei der IT Dokumentation der Pfadi Züri. Um auf die Dokumentation zugreiffen zu öffne: [docs.pfadi.zuerich](https://docs.pfadi.zuerich).
 
-## Installation
+## Anpassungswunsch?
 
-```bash
-yarn
-```
-
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Möchtest du etwas anpassen oder ergänzen? Dann kannst du das selber gleich über unser [GitHub-Repository](https://github.com/pfadizueri/docs) tun.
+Wenn du merkst dass etwas nicht passt und selbst keine GitHub Erfahrung hast, darfst du dich gerne beim Ressort IT melden.
