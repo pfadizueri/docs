@@ -29,7 +29,7 @@ Es kann sein, dass du aufgefordert wirst deine Zeitzone und Sprache zu wählen. 
 _wird demnächst ergänzt_
 
 ## Das Portal
-Über das Portal [office.com](office.com) kannst du auf diverse Applikationen zugreifen. Nach einiger Zeit werden dir deine zuletzt bearbeiteten Dateien angezeigt.
+Über das Portal [office.com](https://office.com) kannst du auf diverse Applikationen zugreifen. Nach einiger Zeit werden dir deine zuletzt bearbeiteten Dateien angezeigt.
 
 ### Outlook
 In Outlook findest du alle E-Mail und deine Termine. Du kannst die Onlineanwendung verwenden oder dich lokal auf deinem Computer anmelden. Zwischen den E-Mails, dem Kalender, den To-Do und den Kontakten kannst du am linken Rand wechseln.
