@@ -25,7 +25,7 @@ Microsoft 365 besteht aus verschiedenen Diensten, die allesamt über einen Web-
 
 Öffne nun die Seite <a href="https://portal.office.com" target="_blank">portal.office.com</a>. Tippe deine E-Mail-Adresse (pfadiname@pfadizueri.ch) und dein Passwort ein und klicke jeweils auf weiter. Die Anmeldeangaben hast du per E-Mail erhalten. Bei der ersten Anmeldung wirst du aufgefordert, dein Passwort zu ändern. So wird sichergestellt, dass nur du dein Passwort kennst. Weiter wirst du aufgefordert die Zwei-Faktor-Authentifizierung einzurichten. Eine Anleitung dazu findest du weiter hinten in diesem Dokument.
 
-Das Passwort bei der ersten Anmeldung lautet: 'Pf4d!-8004zH'
+Das Passwort bei der ersten Anmeldung lautet: `Pf4d!-8004zH`
 
 Es kann sein, dass du aufgefordert wirst deine Zeitzone und Sprache zu wählen. Gib dann bitte folgende Informationen an:
 - Zeitzone: UTC + 01:00 (Amsterdam, Berlin, Bern, ...)
