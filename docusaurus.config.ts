@@ -92,6 +92,13 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'willkommen',
+      content: '👋 Willkommen auf der Pfadi Züri Doku-Seite!',
+      backgroundColor: '#086CB3',
+      textColor: '#EAE6D8',
+      isCloseable: true,
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
