@@ -11,8 +11,14 @@ In dieser kurzen Einleitung möchten wir dir die wichtigsten Informationen bezü
 
 ## Einleitung
 Alle Ehrenamtliche der Kantonsebene bekommen ein Microsoft 365 Konto. Es ermöglicht den Teams unkompliziert zusammenzuarbeiten. Mit deinem Microsoft 365 Konto erhältst du deine eigene **@pfadizueri.ch** E-Mail-Adresse und bis zu 1TB Speicherplatz für dein Pfadi Engagement.
+
+:::info
 Beim Austritt aus deinem Pfadi Züri Team wird dein Konto deaktiviert. Bitte beachte, dass dann alle Dateien und E-Mails unwiderruflich gelöscht werden.
+:::
+
+:::warning
 Bitte beachte, dass sich durch Produkt Aktualisierungen seitens Microsofts einzelne Schritte dieser Anleitung ändern können. Gerne darfst du uns darüber informieren.
+:::
 
 ## Anmeldung (Log-in)
 Microsoft 365 besteht aus verschiedenen Diensten, die allesamt über einen Web-Browser erreichbar sind. Microsoft empfiehlt zwar, den hauseigenen Edge-Browser zu verwenden, allerdings kannst du die Dienste auch mit Firefox, Chrome oder Safari verwenden.
