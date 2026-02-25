@@ -2,9 +2,11 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
+  link: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
@@ -12,6 +14,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Microsoft 365',
+    link: '/m365/intro',
     Svg: require('@site/static/img/m365.svg').default,
     description: (
       <>
@@ -21,6 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'MiData',
+    link: '/midata/intro',
     Svg: require('@site/static/img/pbs.svg').default,
     description: (
       <>
@@ -31,6 +35,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'E-Mail-Verkehr',
+    link: '/mail/intro',
     Svg: require('@site/static/img/outlook.svg').default,
     description: (
       <>
@@ -40,17 +45,19 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, link, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <Link to={link} style={{textDecoration: 'none', color: 'inherit'}}>
+      <div className={clsx('col col--4')}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
+    </Link>
   );
 }
 
