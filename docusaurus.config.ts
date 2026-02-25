@@ -35,6 +35,45 @@ const config: Config = {
     locales: ['de'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'm365',
+        path: 'm365',
+        routeBasePath: 'm365',
+        sidebarPath: './sidebars.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'midata',
+        path: 'midata',
+        routeBasePath: 'midata',
+        sidebarPath: './sidebars.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'mail',
+        path: 'mail',
+        routeBasePath: 'mail',
+        sidebarPath: './sidebars.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'kontakt',
+        path: 'kontakt',
+        routeBasePath: 'kontakt',
+        sidebarPath: './sidebars.ts',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
