@@ -107,23 +107,29 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
+          docsPluginId: 'm365',
+          sidebarId: 'm365Sidebar',
           position: 'left',
           label: 'Microsoft 365',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
+          docsPluginId: 'midata',
+          sidebarId: 'midataSidebar',
           position: 'left',
           label: 'MiData',
-        },{
+        },
+        {
           type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
+          docsPluginId: 'mail',
+          sidebarId: 'mailSidebar',
           position: 'left',
           label: 'E-Mail-Verkehr',
-        },{
+        },
+        {
           type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
+          docsPluginId: 'kontakt',
+          sidebarId: 'kontaktSidebar',
           position: 'left',
           label: 'Kontakt',
         },
