@@ -171,7 +171,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Pfadi Züri | Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Pfadi Züri | Ressort IT | Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
