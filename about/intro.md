@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # Über uns
 
-Willkommen bei der Pfadi Züri! Wir sind eine Pfadfinderorganisation aus Zürich und bieten Kindern und Jugendlichen eine sinnvolle Freizeitbeschäftigung.
+Willkommen bei der IT Dokumentation der Pfadi Züri!
+In dieser Dokumentation findest du alle wichtigen Informationen, welche du für einen Pfadialltag im bezug auf IT brauchst.
 
-Auf dieser Seite findest du alle Informationen über uns und unsere Aktivitäten.
+Bei Fragen ist das Ressort IT gerne für dich da.
