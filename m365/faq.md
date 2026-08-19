@@ -16,6 +16,6 @@ sidebar_position: 99
   <summary>Mit wem kann ich meine Dateien teilen</summary>
 
   Grundsätzlich kannst du alle Dateien mit externen Personen teilen.
-  Es gibt einschränkungen welche von Team zu Team unterschiedlich sein können. Teams, welche besondersschützenswerte Daten verarbeiten können nur Links erstellen, auf welche Personen aus dem selben Team zugreiffen können.
+  Es gibt Einschränkungen, welche von Team zu Team unterschiedlich sein können. Teams, welche besonders schützenswerte Daten verarbeiten, können nur Links erstellen, auf welche Personen aus dem selben Team zugreifen können.
 
 </details>

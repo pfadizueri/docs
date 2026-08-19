@@ -19,6 +19,4 @@ In der linken Seitenliste solltest du unten deine Gruppe(n) finden.
 
 Wir empfehlen, dass du die Gruppe als Favorit markierst, damit die Gruppe weit oben in der Liste unter «Favoriten» zu finden ist.
 
-_Foto folgt_
-
-Bei Fragen darfst du dich gerne unter [it@pfadizueri.ch](mailto:it@pfadizueri.ch) melden.
+Bei Fragen darfst du dich gerne unter [Kontakt](https://docs.pfadi.zuerich/kontakt/intro) melden.

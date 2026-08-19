@@ -11,12 +11,8 @@ Kursordner können für Kursteammitglieder ausserhalb der Kantonsebene freigegeb
 ## 1. Ordner teilen
 Klicke auf das «Teilen»-Icon neben dem betreffenden Ordnernamen.
 
-_Foto folgt_
-
 ## 2. Linkeinstellungen öffnen
 Klicke im Freigeben-Dialog auf das Zahnrad-Icon, um die Bedingungen für den Link zu verändern.
-
-_Foto folgt_
 
 ## 3. Link konfigurieren
 Im Popup müssen die Punkte wie folgt konfiguriert werden:
@@ -27,11 +23,7 @@ Im Popup müssen die Punkte wie folgt konfiguriert werden:
 
 Speichere die Einstellungen anschliessend mit «Übernehmen».
 
-_Foto folgt_
-
 ## 4. Link kopieren
 Der Link zum Teilen kann über den Knopf «Link kopieren» kopiert und z.B. per E-Mail an die Kursteammitglieder verschickt werden.
 
-_Foto folgt_
-
-Bei Fragen darfst du dich gerne unter [it@pfadizueri.ch](mailto:it@pfadizueri.ch) melden.
+Bei Fragen darfst du dich gerne unter [Kontakt](https://docs.pfadi.zuerich/kontakt/intro) melden.

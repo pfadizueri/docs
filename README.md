@@ -1,6 +1,6 @@
 # Pfadi Züri IT Dokumentation
 
-Willkommen bei der IT Dokumentation der Pfadi Züri. Um auf die Dokumentation zugreiffen zu öffne: [docs.pfadi.zuerich](https://docs.pfadi.zuerich).
+Willkommen bei der IT Dokumentation der Pfadi Züri. Um auf die Dokumentation zuzugreifen, öffne: [docs.pfadi.zuerich](https://docs.pfadi.zuerich).
 
 ## Anpassungswunsch?
 

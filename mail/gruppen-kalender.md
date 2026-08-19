@@ -19,20 +19,14 @@ Hier der Link: https://outlook.office.com/owa/
 ### 2. Navigiere zum Kalender
 Auf der linken Seite solltest du zur Kalenderansicht wechseln können.
 
-_Foto folgt_
-
 ### 3. Anzeigen aller Gruppen
 Hier siehst du jetzt auf der linken Seite deine Gruppen. Um alle zu sehen, musst du «Show all» drücken.
 
 ### 4. Auswählen der Gruppen
 Um den Kalender einer Gruppe in deinem Kalender anzeigen zu lassen, musst du sie hier auswählen; das machst du, indem du auf sie klickst.
 
-_Foto folgt_
-
 ### 5. Ansehen
 Nun siehst du alle Gruppeneinträge in der aktuellen Ansicht integriert.
-
-_Foto folgt_
 
 ## Termine hinzufügen
 
@@ -42,6 +36,4 @@ Um für eine Gruppe einen neuen Termin zu erstellen, klickst du wie sonst auf «
 ### 2. Kalender auswählen
 Beim Erstellen wählst du dann aus, für welchen Kalender dieser Termin ist.
 
-_Foto folgt_
-
-Bei Fragen darfst du dich gerne unter [it@pfadizueri.ch](mailto:it@pfadizueri.ch) melden.
+Bei Fragen darfst du dich gerne unter [Kontakt](https://docs.pfadi.zuerich/kontakt/intro) melden.

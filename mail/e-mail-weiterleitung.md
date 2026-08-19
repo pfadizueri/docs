@@ -5,9 +5,9 @@ sidebar_position: 10
 # E-Mail-Weiterleitung
 
 Wir wissen, dass es lästig sein kann mehrere E-Mail-Adressen in deinem Mailprogramm hinzufügen zu müssen. Deswegen
-zeigen wir dir in dieser Anleitung wir du eine Weiterleitung einrichten kannst.
+zeigen wir dir in dieser Anleitung, wie du eine Weiterleitung einrichten kannst.
 
-** Bitte beachte: **
+**Bitte beachte:**
 • Antworten auf deine Pfadi Züri E-Mails solltest du nur über office.com nicht über deine private E-Mail.
 
 
