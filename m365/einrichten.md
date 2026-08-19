@@ -32,7 +32,32 @@ Es kann sein, dass du aufgefordert wirst deine Zeitzone und Sprache zu wählen. 
 - Sprache: Deutsch (Schweiz)
 
 ## 2FA
-_wird demnächst ergänzt_
+Jeder Account muss mit einer Zwei-Faktor-Authentifizierung (2FA) abgesichert werden. Ohne 2FA ist es nicht möglich, sich anzumelden. Wir empfehlen die Verwendung der Microsoft Authenticator App.
+
+### Auf dem Computer
+- Öffne <a href="https://mysignins.microsoft.com/security-info" target="_blank">mysignins.microsoft.com/security-info</a>
+- Klicke auf «Neue Anmeldemethode hinzufügen»
+- Wähle «Authenticator-App» → «Microsoft Authenticator» → «Weiter»
+- Warte, bis der QR-Code angezeigt wird
+
+### Auf dem Smartphone
+- Lade die Microsoft Authenticator App für <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator" target="_blank">Android</a> oder <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458" target="_blank">iOS</a> herunter und installiere sie.
+- Tippe auf «+» → «Geschäfts-, Schul- oder Unikonto»
+- Scanne den QR-Code, der auf dem Computer angezeigt wird, mit deinem Smartphone
+- Dein Konto wird automatisch hinzugefügt, ein sechsstelliger Code wird angezeigt
+
+### Abschliessen
+- Klicke am Computer auf «Fertig»
+- Warte, bis der Aktivierungsstatus überprüft wurde
+- Bestätige die Anmeldung auf deinem Smartphone, indem du auf «Genehmigen» tippst
+
+Fertig! Deine 2FA ist eingerichtet.
+
+:::tip
+Du kannst auch eine andere Authenticator-App wie Google Authenticator, die iOS Authenticator App oder FreeOTP verwenden. Wähle dazu im ersten Schritt «Ich möchte eine andere Authentifikator-App verwenden». Der Ablauf ist derselbe, ausser dass du den 6-stelligen Code jeweils manuell eintippen musst, statt die Anmeldung nur zu bestätigen.
+:::
+
+_Foto folgt_
 
 ## Das Portal
 Über das Portal [office.com](https://office.com) kannst du auf diverse Applikationen zugreifen. Nach einiger Zeit werden dir deine zuletzt bearbeiteten Dateien angezeigt.
@@ -43,6 +68,8 @@ In Outlook findest du alle E-Mail und deine Termine. Du kannst die Onlineanwendu
 :::tip
 Vergiss nicht, dir auch gleich deine persönliche E-Mail-Signatur einzurichten. Eine Anleitung dazu findest du unter <a href="https://docs.pfadi.zuerich/mail/signatur" target="_blank">E-Mail-Verkehr &gt; Signatur</a>.
 :::
+
+Neben deinem persönlichen Postfach hat auch jedes Ressort bzw. jede Gruppe eine eigene @pfadizueri.ch Adresse inklusive Gruppen-Kalender. Wie du diese findest und verwendest, erfährst du unter <a href="https://docs.pfadi.zuerich/mail/gruppen-email" target="_blank">E-Mail-Verkehr &gt; Gruppen E-Mail</a> und <a href="https://docs.pfadi.zuerich/mail/gruppen-kalender" target="_blank">E-Mail-Verkehr &gt; Gruppen Kalender</a>.
 
 Die Einteilung von “Relevant” und “Sonstige” ist etwas gewöhnungsbedürftig. Diese Funktion sollte deine E-Mails optimal für dich filtern. Es dauert eine Weile, bis deine E-Mails am richtigen Ort landen. Falls du diese Funktion nicht magst, kannst du diese Funktion in den Einstellungen deaktivieren. Dann werden stattdessen alle eingehenden Mails im Posteingang angezeigt.
 
@@ -88,6 +115,10 @@ Die Teams-Applikation gibt es für Windows, MacOS, iOS und Android. Du findest 
 Jedem Team ist eine SharePoint-Seite zugeteilt. Alle Dateien aus Teams sind in eurer SharePoint Bibliothek abgelegt.
 Dateien, welche für das gesamte Team relevant sind, bitte auf SharePoint oder Teams ablegen. Somit gehen die Dateien auch nicht verloren, wenn du einmal nicht mehr aktiv auf der Kantonsebene bist.
 
+:::tip
+Möchtest du einen Kursordner der Kantonsebene für Kursteammitglieder ausserhalb der Kantonsebene freigeben? Eine Anleitung dazu findest du unter <a href="https://docs.pfadi.zuerich/m365/kursordner-freigeben" target="_blank">Microsoft 365 &gt; Kursordner freigeben</a>.
+:::
+
 #### Synchronisieren
 Ähnlich, wie du das schon von der OwnCloud kennst, kannst du die Ordner, die du häufig verwendest, auf deinem Notebook (oder Smartphone) aktuell halten und die Doku-mente direkt öffnen. Der Dienst, der die Da-teien mit SharePoint synchronisiert, heisst OneDrive. Er ist dafür zuständig, deine Doku-mente aus der «Cloud» mit deinen Geräten abzugleichen.
 Die offizielle Version von OneDrive ist für Windows 10, MacOS, iOS und Android verfügbar. Am einfachsten gelangst du zu den Down-loads, wenn du portal.office.com öffnest, dann OneDrive öffnest und anschliessend unten auf «OneDrive-Apps herunterladen» klickst.
@@ -100,6 +131,15 @@ Nach dem Bestätigen dauert es einen Moment, bis die Aktivität im OneDrive-Dien
 Nun sollten die Dateien lokal bei dir angezeigt werden. Windows -> Explorer / MacOS -> Finder. Ebenfalls wird dein persönlicher OneDrive-Speicher synchronisiert.
 
 <a href="https://support.microsoft.com/de-de/office/synchronisieren-von-sharepoint-und-teams-dateien-mit-ihrem-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88" target="_blank">zur Anleitung von Microsoft</a>
+
+#### SharePoint und OneDrive gemeinsam synchronisieren
+Falls du sowohl SharePoint als auch dein persönliches OneDrive mit deinem Computer synchronisieren willst und dabei eine gemeinsame lokale Ordnerstruktur haben möchtest, musst du einen Umweg nehmen. Nach dem Download der OneDrive Applikation erstellst du online im SharePoint über «Verknüpfung zu OneDrive hinzufügen» eine Verknüpfung von SharePoint in deinem OneDrive.
+
+Anschliessend kannst du dein OneDrive wie oben beschrieben direkt mit dem Computer verknüpfen. Somit hast du dann in der OneDrive-Verknüpfung einen Unterordner zu den SharePoint-Dateien.
+
+<a href="https://support.microsoft.com/de-de/office/synchronisieren-von-onedrive-dateien-und-ordnern-3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68" target="_blank">zur Anleitung von Microsoft für OneDrive</a>
+
+Solltest du Schwierigkeiten mit der Einrichtung haben, wende dich bitte direkt ans <a href="mailto:it@pfadizueri.ch">IT-Team</a>.
 
 ### Word, PowerPoint, Excel, OneNote
 Bei den gängigen Office-Applikationen unterscheidet Microsoft zwischen Web-Apps und Desktop-Apps. In einem ersten Schritt stehen dir nur die Web-Apps zur Verfügung. Damit bearbeitest du die Dokumente direkt in deinem Browser, ohne eine Applikation herunterzuladen.
