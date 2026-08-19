@@ -40,7 +40,9 @@ _wird demnächst ergänzt_
 ### Outlook
 In Outlook findest du alle E-Mail und deine Termine. Du kannst die Onlineanwendung verwenden oder dich lokal auf deinem Computer anmelden. Zwischen den E-Mails, dem Kalender, den To-Do und den Kontakten kannst du am linken Rand wechseln.
 
-_Foto folgt_
+:::tip
+Vergiss nicht, dir auch gleich deine persönliche E-Mail-Signatur einzurichten. Eine Anleitung dazu findest du unter <a href="https://docs.pfadi.zuerich/mail/signatur" target="_blank">E-Mail-Verkehr &gt; Signatur</a>.
+:::
 
 Die Einteilung von “Relevant” und “Sonstige” ist etwas gewöhnungsbedürftig. Diese Funktion sollte deine E-Mails optimal für dich filtern. Es dauert eine Weile, bis deine E-Mails am richtigen Ort landen. Falls du diese Funktion nicht magst, kannst du diese Funktion in den Einstellungen deaktivieren. Dann werden stattdessen alle eingehenden Mails im Posteingang angezeigt.
 
