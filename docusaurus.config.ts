@@ -163,8 +163,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/pfadizueri/',
+              label: 'Webseite',
+              href: 'https://pfadizueri.ch',
             },
           ],
         },
