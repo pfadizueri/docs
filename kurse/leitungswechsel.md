@@ -28,7 +28,10 @@ Solange noch mindestens ein Co-Editor im Team ist, kann dieser weiterarbeiten. D
 
 Falls Tarantula nicht lädt, schreib an **it[ät]pfadizueri.ch**.
 
-:::info Vorher anmelden
+:::info
+
+**Vorher anmelden**
+
 Die neue Person muss sich **vor** dem Wechsel einmal mit MiData auf [kurse.pfadi.zuerich](https://kurse.pfadi.zuerich) anmelden. Sonst kann das IT-Team sie nicht eintragen.
 :::
 

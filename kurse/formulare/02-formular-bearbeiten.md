@@ -19,11 +19,17 @@ Du kannst alle Formulare bearbeiten, die du selbst erstellt hast oder bei denen 
 
 **E-Mail:** Hier legst du fest, **wer die Anmeldungen bekommt**. Trag im Feld **An** die E-Mail-Adresse eures Kursteams ein.
 
-:::danger Empfänger-Adresse genau prüfen
+:::danger
+
+**Empfänger-Adresse genau prüfen**
+
 Anmeldungen werden **nicht auf der Webseite gespeichert**, sondern nur per E-Mail verschickt. Ist die Adresse im Feld **An** falsch, sind die Anmeldungen verloren und lassen sich nicht wiederherstellen.
 :::
 
-:::warning Absender nicht ändern
+:::warning
+
+**Absender nicht ändern**
+
 Lass das Feld **Von** so, wie es ist. Mit einer anderen Absenderadresse landen die E-Mails im Spam oder kommen gar nicht an. Wenn du willst, dass Antworten direkt an die anmeldende Person gehen, nutze unter **Zusätzliche Header** die Zeile `Reply-To: [your-email]` (bzw. den Namen deines E-Mail-Felds).
 :::
 

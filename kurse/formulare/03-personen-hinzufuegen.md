@@ -8,7 +8,10 @@ description: Weitere Personen aus deinem Kursteam für ein Formular berechtigen.
 
 Damit auch andere aus deinem Kursteam ein Formular bearbeiten können, trägst du sie als **Co-Editoren** ein.
 
-:::info Nicht dasselbe wie beim Beitrag
+:::info
+
+**Nicht dasselbe wie beim Beitrag**
+
 Co-Editoren für **Formulare** verwaltest du auf der Seite **Berechtigungen**, nicht im Beitrag. Wer deinen Beitrag bearbeiten darf, kann nicht automatisch auch dein Formular bearbeiten. Du musst die Person an beiden Orten eintragen.
 :::
 
@@ -28,10 +31,16 @@ Co-Editoren für **Formulare** verwaltest du auf der Seite **Berechtigungen**, n
 
 Die Person verliert den Zugriff sofort. Entfernst du dich selbst, kannst du das Formular danach ebenfalls nicht mehr öffnen.
 
-:::tip Mindestens zwei Personen eintragen
+:::tip
+
+**Mindestens zwei Personen eintragen**
+
 Trag pro Formular immer **mindestens zwei Personen** ein. Wenn jemand das Team verlässt, kann das Kursteam trotzdem weiterarbeiten.
 :::
 
-:::info Person nicht gefunden?
+:::info
+
+**Person nicht gefunden?**
+
 Die Person muss sich zuerst einmal mit MiData auf [kurse.pfadi.zuerich](https://kurse.pfadi.zuerich) angemeldet haben. Erst dann existiert sie im System.
 :::

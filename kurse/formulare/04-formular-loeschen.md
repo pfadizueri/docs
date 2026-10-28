@@ -6,7 +6,10 @@ description: Was beim Löschen eines Formulars passiert – und warum es endgül
 
 # Formular löschen
 
-:::danger Löschen ist endgültig
+:::danger
+
+**Löschen ist endgültig**
+
 Formulare haben **keinen Papierkorb**. Ein gelöschtes Formular ist sofort und **unwiderruflich** weg – auch das IT-Team kann es nicht wiederherstellen.
 :::
 
@@ -31,6 +34,9 @@ Formulare haben **keinen Papierkorb**. Ein gelöschtes Formular ist sofort und *
 4. Die Sicherheitsabfrage bestätigen.
 5. Den Shortcode aus deinem Beitrag entfernen und den Beitrag speichern.
 
-:::tip Lieber ausblenden statt löschen
+:::tip
+
+**Lieber ausblenden statt löschen**
+
 Wenn du unsicher bist: Entferne nur den Shortcode aus dem Beitrag. Das Formular ist dann nicht mehr öffentlich, bleibt aber erhalten.
 :::

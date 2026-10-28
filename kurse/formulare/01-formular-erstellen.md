@@ -8,7 +8,10 @@ description: So erstellst du ein Anmelde- oder Kontaktformular für deine Kurswe
 
 Mit Formularen kannst du auf deiner Kurswebseite zum Beispiel Anmeldungen, Rückmeldungen oder Fragen entgegennehmen.
 
-:::warning Wichtig
+:::warning
+
+**Wichtig**
+
 Der übliche Button «Kontaktformular hinzufügen» ist für Kursleitende ausgeblendet. Neue Formulare erstellst du **nur** über die Seite **Berechtigungen**.
 :::
 
