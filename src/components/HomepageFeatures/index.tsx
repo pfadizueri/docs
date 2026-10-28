@@ -23,13 +23,12 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'MiData',
-    link: '/midata/intro',
-    Svg: require('@site/static/img/pbs.svg').default,
+    title: 'Kurse',
+    link: '/kurse/intro',
+    Svg: require('@site/static/img/kurse.svg').default,
     description: (
       <>
-        Hier findest du alle wichtigen Informationen rund um MiData.
-        Die Dokumentation der MiData findest du hier <a href="https://docu.scout.ch/" target="_blank">docu.scout.ch/</a>.
+        Hier erfährst du, wie du Formulare für deine Kurswebseite auf <b>kurse.pfadi.zuerich</b> erstellst und verwaltest.
       </>
     ),
   },

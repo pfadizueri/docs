@@ -66,6 +66,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'kurse',
+        path: 'kurse',
+        routeBasePath: 'kurse',
+        sidebarPath: './sidebars.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'kontakt',
         path: 'kontakt',
         routeBasePath: 'kontakt',
@@ -125,6 +134,13 @@ const config: Config = {
           sidebarId: 'midataSidebar',
           position: 'left',
           label: 'MiData',
+        },
+        {
+          type: 'docSidebar',
+          docsPluginId: 'kurse',
+          sidebarId: 'kurseSidebar',
+          position: 'left',
+          label: 'Kurse',
         },
         {
           type: 'docSidebar',
